@@ -1,0 +1,100 @@
+    /* 0b7bed6e6630029afc407b19c22aedef */
+    @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font: inherit;
+      color: inherit;
+      user-select: none;
+    }
+    body {
+      background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://d9mkw1aadlzjls.archive.is/YyRCQ/f1b683e3cf7e3d13aad51cb6656dd46a8f61d7c2.jpg);
+      background-size: cover;
+      background-position: right;
+      background-attachment : fixed;
+      background-color: #000;
+      height: 100vh;
+      overflow: hidden;
+    }
+    @keyframes glow {
+      0%,
+      100% {
+        text-shadow:
+          0 0 10px #800000,
+          0 0 20px #800000,
+          0 0 40px #800000,
+          0 0 80px #800000;
+      }
+      50% {
+        text-shadow:
+          0 0 5px #800000,
+          0 0 10px #800000,
+          0 0 20px #800000,
+          0 0 40px #800000;
+      }
+    }
+    h1 {
+      font-size: 44vw;
+      font-weight: bold;
+      text-align: center;
+      position: fixed;
+      width: 100vw;
+      z-index: 1;
+      color: #000000ee;
+      text-shadow:
+        0 0 10px #800000,
+        0 0 20px #800000,
+        0 0 40px #800000,
+        0 0 80px #800000;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: "Cinzel", serif;
+      animation: glow 1.5s infinite ease-in-out;
+    }
+    .k1773n {
+      width: 77vw;
+      position: relative;
+      top: 55%;
+      transform: translateY(-50%);
+      margin: 0 auto;
+      padding: 40px 30px 20px;
+      z-index: 3;
+    }
+    h2 {
+      font-family: "Cinzel", serif;
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 33px;
+      font-weight: bold;
+      text-align: center;
+      text-shadow: 2px 2px 2px #000;
+    }
+    p {
+      font-family: "Cinzel", serif;
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 16.5px;
+      text-align: center;
+      text-shadow: 1px 1px 1px #000;
+      line-height: 1.2;
+    }
+    l {
+      color: #ff0000;
+      text-shadow: 2px 2px 2px #000;
+      font-weight: bold;
+    }
+    x {
+      color: #666;
+    }
+    r {
+      color: #f00;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #c00;
+    }
+    d {
+      color: #fff;
+      font-size: 15px;
+      text-align: center;
+      text-shadow: 1px 1px 1px #000;
+    }
