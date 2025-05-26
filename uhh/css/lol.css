@@ -1,0 +1,57 @@
+        html, body {
+            height: 100%;
+            width: 100%;
+            background:linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(244, 167, 187, 0.1));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            user-select:none;
+        }
+        img {
+            border-radius: 50%;
+            max-width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-family: "Buda", serif;
+            font-size: 30px;
+            color: #FF9999;
+            text-shadow: 1px 1px 1px #FF9999;
+            margin-top: 30px;
+        }
+        p {
+            font-family: "Buda", serif;
+            font-size: 19px;
+            color: #FFE6E6;
+            line-height: 1.4;
+            max-width: 100%;
+            margin: 15px auto;
+        }
+        .lol {
+            font-size: 14px;
+            font-family: "Buda", serif;
+            color: #FFCCCC;
+            margin-top: 7px;
+            max-width: 400px;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 24px; }
+            p { font-size: 16px; }
+            .lol { font-size: 12px; }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 24px; }
+            p { font-size: 16px; }
+            .lol { font-size: 12px; }
+            body { padding: 10px; }
+        }
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+         }
+        }
