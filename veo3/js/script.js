@@ -1,6 +1,7 @@
 function playSound() {
   document.querySelector("audio").play();
 }
+ /* 0b7bed6e6630029afc407b19c22aedef */
 document.addEventListener("DOMContentLoaded", () => {
   const cameraMovements = {
     Static: "Statis",
@@ -120,22 +121,3 @@ ${negativePrompt}`;
       "Hindari: teks di layar, subtitle, tulisan di video, font, logo, distorsi, artefak, anomali, wajah ganda, anggota badan cacat, tangan tidak normal, orang tambahan, objek mengganggu, kualitas rendah, buram, glitch, suara robotik, suara pecah.";
   });
 });
- /* 0b7bed6e6630029afc407b19c22aedef */
-document.addEventListener("keydown", function (e) {
-  if (
-    e.key === "F12" ||
-    (e.ctrlKey &&
-      e.shiftKey &&
-      ["I", "J", "C"].includes(e.key.toUpperCase())) ||
-    (e.ctrlKey && ["W", "U"].includes(e.key.toUpperCase()))
-  ) {
-    e.preventDefault();
-    alert("lol");
-  }
-});
-window.onbeforeunload = function () {
-  return "whoops?";
-};
-setInterval(() => {
-  window.focus();
-}, 1000);
